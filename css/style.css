@@ -1,0 +1,60 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .infoCat {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .infoCat:hover {
+    transform: translateY(-5px);
+  }
+  
+  .infoCat img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px 0 0 10px;
+  }
+  
+  .infoCat div {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .infoCat h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .infoCat p {
+    color: #777;
+    margin-top: 10px;
+  }
+  
+  /* Otros estilos según tu preferencia */
+  
